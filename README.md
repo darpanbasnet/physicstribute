@@ -5,7 +5,7 @@ This is a tribute page dedicated to the brilliant physicists who have made signi
 
 # --Demo--
 
-https://darpanbasnet.github.io/tributepage/
+https://darpanbasnet.github.io/physicstribute/
 
 
 ## Features
