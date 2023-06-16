@@ -10,17 +10,18 @@ body{
     display: grid;
     scroll-behavior: smooth;
     overflow-anchor: auto;
-    height: 100vh;
+    height: 90vh;
 }
 .big-container{
-    width: 95%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 35% 35%;
+    grid-template-columns: 40% 40%;
     justify-content: space-evenly;
 }
 header h1{
+    color: #2b6777;
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -30,10 +31,8 @@ header h1{
     aspect-ratio: 4/ 9;
     background-color: #2b6777;
     color: white;
-    /* padding: 0.5rem; */
     overflow: scroll;
     border-radius: 1rem;
-    scrollbar-width: 0.4rem;
 }
 .image{
     width: 100%;
