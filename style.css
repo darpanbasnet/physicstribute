@@ -11,8 +11,10 @@ body{
     scroll-behavior: smooth;
     overflow-anchor: auto;
     height: 90vh;
+    user-select: none;
 }
 .big-container{
+    padding-bottom: 1rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -33,6 +35,7 @@ header h1{
     color: white;
     overflow: scroll;
     border-radius: 1rem;
+    scroll-behavior: smooth;
 }
 .image{
     width: 100%;
@@ -83,14 +86,26 @@ header h1{
 .work-list{
     list-style-position: inside;
     list-style-type: lower-greek;
+    list-style-position: outside;
 }
 .work-list li {
-    padding: 0.5rem;
+    padding: 0.8rem;
 }
 .work-list p {
-    font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    word-wrap: break-word;
+    /* word-break: break-all; */
+    /* word-wrap: break-word; */
+    font-size: large;
+    background-color: #c8d8e41f;
+    padding: 0.2rem;
+    hyphens: auto;
+
+}
+.footer {
+    text-align: center;
+    padding: 1rem;
+    color: #2b6777;
 }
 
 @media (max-width: 610px){
