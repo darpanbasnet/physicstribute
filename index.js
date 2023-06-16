@@ -82,6 +82,7 @@ const Physicists = [
     
 ]
 let body = document.querySelector('body');
+let bigContainer = document.createElement('div');
 let bigAtt = document.createAttribute('class');
 bigAtt.value = 'big-container';
 bigContainer.setAttributeNode(bigAtt);
