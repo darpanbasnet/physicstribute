@@ -82,10 +82,6 @@ const Physicists = [
     
 ]
 let body = document.querySelector('body');
-// let image = document.getElementById('hero-image');
-// let intro = document.getElementById('intros');
-// let workList = document.getElementById('work-list');
-let bigContainer = document.createElement('div');
 let bigAtt = document.createAttribute('class');
 bigAtt.value = 'big-container';
 bigContainer.setAttributeNode(bigAtt);
