@@ -27,7 +27,7 @@ header h1{
 }
 .container{
     margin-top: 2rem;
-    height: 4 / 7;
+    aspect-ratio: 4/ 9;
     background-color: #2b6777;
     color: white;
     /* padding: 0.5rem; */
