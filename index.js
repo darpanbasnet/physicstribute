@@ -118,19 +118,6 @@ const Physicists = [
         }
     },
       {
-        name: 'Neils Bohr',
-        dateOfBirth: 'October 7, 1885',
-        dateOfDemise: 'November 18, 1962,',
-        image: './assets/images/bohr.jpg',
-        workDescription: {
-            point1: `Bohr model of the atom: In 1913, Bohr proposed his model of the atom, also known as the Bohr-Rutherford model. This model incorporated ideas from quantum theory and explained the stability of atoms. Bohr suggested that electrons orbit the nucleus in discrete energy levels or orbits, and they can jump between these levels by absorbing or emitting energy in the form of photons. The Bohr model was instrumental in explaining the spectral lines observed in atomic spectra and laid the foundation for our understanding of atomic structure.`,
-            point2: `Correspondence principle: Bohr introduced the correspondence principle, which states that the predictions of classical physics must agree with the predictions of quantum mechanics in the limit of large quantum numbers or large-scale systems. This principle provided a bridge between the new quantum theory and the classical physics that had been well-established at the time. It helped reconcile the discrepancies between classical and quantum behavior and served as a guiding principle in the development of quantum mechanics.`,
-            point3: `Bohr's atomic theory: Bohr extended his model of the atom to develop a comprehensive atomic theory known as the Bohr theory. This theory incorporated the principles of quantum mechanics and explained the behavior of electrons in atoms, including their discrete energy levels, transitions between levels, and the emission and absorption of photons. Bohr's atomic theory was a significant step towards understanding the fundamental properties of matter at the atomic level.`,
-            point4: `Principle of complementarity: Bohr introduced the principle of complementarity, which states that particles can exhibit both wave-like and particle-like behavior, but not simultaneously. This concept emphasizes the duality and inherent limitations in our understanding of quantum systems. It played a fundamental role in shaping the interpretation of quantum mechanics and influenced subsequent developments in the field.`,
-            point5: `Quantum mechanics: While Bohr's contributions preceded the development of quantum mechanics as a complete formalism, his work provided crucial insights and paved the way for the formulation of a more comprehensive theory. Bohr's ideas on quantization, electron behavior, and the role of observation were foundational in the subsequent development of quantum mechanics by physicists such as Werner Heisenberg, Erwin Schrödinger, and others.`
-        }
-    },
-      {
         name: 'Albert Einstien',
         dateOfBirth: 'March 14, 1879',
         dateOfDemise: 'April 18, 1955',
@@ -141,6 +128,19 @@ const Physicists = [
             point3: `Photoelectric effect: Einstein's explanation of the photoelectric effect, for which he received the Nobel Prize in Physics in 1921, was a groundbreaking contribution. He showed that light behaves as discrete particles of energy called photons, which explained how light can eject electrons from a material's surface. This work contributed to the development of quantum theory and had significant implications for the field of quantum mechanics.`,
             point4: `Brownian motion: In 1905, Einstein explained the irregular motion observed in small particles suspended in a fluid, known as Brownian motion. His analysis provided strong evidence for the existence of atoms and molecules, confirming their existence as physical entities. This work was instrumental in supporting the atomic theory and revolutionized our understanding of matter at the microscopic level.`,
             point5: `Mass-energy equivalence: As mentioned earlier, Einstein's famous equation E=mc² demonstrated the equivalence of mass and energy. This groundbreaking insight profoundly impacted our understanding of the interconversion of mass and energy and laid the foundation for advancements in nuclear physics, leading to the development of nuclear power and atomic weapons. It also revealed the immense energy contained within even small amounts of matter.`
+        }
+    },
+          {
+        name: 'Neils Bohr',
+        dateOfBirth: 'October 7, 1885',
+        dateOfDemise: 'November 18, 1962,',
+        image: './assets/images/bohr.jpg',
+        workDescription: {
+            point1: `Bohr model of the atom: In 1913, Bohr proposed his model of the atom, also known as the Bohr-Rutherford model. This model incorporated ideas from quantum theory and explained the stability of atoms. Bohr suggested that electrons orbit the nucleus in discrete energy levels or orbits, and they can jump between these levels by absorbing or emitting energy in the form of photons. The Bohr model was instrumental in explaining the spectral lines observed in atomic spectra and laid the foundation for our understanding of atomic structure.`,
+            point2: `Correspondence principle: Bohr introduced the correspondence principle, which states that the predictions of classical physics must agree with the predictions of quantum mechanics in the limit of large quantum numbers or large-scale systems. This principle provided a bridge between the new quantum theory and the classical physics that had been well-established at the time. It helped reconcile the discrepancies between classical and quantum behavior and served as a guiding principle in the development of quantum mechanics.`,
+            point3: `Bohr's atomic theory: Bohr extended his model of the atom to develop a comprehensive atomic theory known as the Bohr theory. This theory incorporated the principles of quantum mechanics and explained the behavior of electrons in atoms, including their discrete energy levels, transitions between levels, and the emission and absorption of photons. Bohr's atomic theory was a significant step towards understanding the fundamental properties of matter at the atomic level.`,
+            point4: `Principle of complementarity: Bohr introduced the principle of complementarity, which states that particles can exhibit both wave-like and particle-like behavior, but not simultaneously. This concept emphasizes the duality and inherent limitations in our understanding of quantum systems. It played a fundamental role in shaping the interpretation of quantum mechanics and influenced subsequent developments in the field.`,
+            point5: `Quantum mechanics: While Bohr's contributions preceded the development of quantum mechanics as a complete formalism, his work provided crucial insights and paved the way for the formulation of a more comprehensive theory. Bohr's ideas on quantization, electron behavior, and the role of observation were foundational in the subsequent development of quantum mechanics by physicists such as Werner Heisenberg, Erwin Schrödinger, and others.`
         }
     },
     {
@@ -156,6 +156,19 @@ const Physicists = [
             point5: `Philosophical Implications: Heisenberg's work and his discussions with Niels Bohr on the interpretation of quantum mechanics raised profound philosophical questions. Heisenberg's views emphasized the inherent limitations of measurement and the probabilistic nature of the quantum world, sparking debates about the nature of reality and the role of observation in physics.`
         }
     },
+    {
+        name:'Erwin Rudolf Josef Alexander Schrödinger',
+        dateOfBirth:'August 12, 1887',
+        dateOfDemise:'January 4, 1961',
+        image:'./assets/images/erwin.jpg',
+        workDescription: {
+  point1: `Schrödinger's wave equation: Developed a mathematical equation known as Schrödinger's wave equation, which describes the behavior of quantum particles, including electrons. It introduced the concept of wave functions, allowing the calculation of probabilities for different particle properties.`,
+  point2: `Wave-particle duality: Schrödinger contributed to the understanding of wave-particle duality, proposing that particles, such as electrons, can exhibit both wave-like and particle-like properties. This concept revolutionized our understanding of the nature of matter, highlighting the dual nature of particles.`,
+  point3: `Formulation of quantum mechanics: Schrödinger made significant contributions to the development of quantum mechanics. He formulated it in terms of wave mechanics, providing a mathematical framework for understanding quantum phenomena. His work demonstrated the probabilistic nature of quantum systems and allowed for the prediction of particle behavior.`,
+  point4: `Schrödinger equation for hydrogen atom: Schrödinger derived an equation, known as the Schrödinger equation, to describe the energy levels and behavior of electrons in a hydrogen atom. This equation provided a more accurate description of atomic structure, accounting for electron wave functions and their corresponding energy states.`,
+  point5: `Schrödinger's cat thought experiment: Schrödinger proposed a famous thought experiment known as Schrödinger's cat. It involves a hypothetical cat that can be both alive and dead simultaneously, illustrating the strange consequences of quantum superposition and entanglement. This experiment highlights the peculiar nature of quantum systems and the role of observation in collapsing quantum states.`,
+}
+    }
 
     
 ]
