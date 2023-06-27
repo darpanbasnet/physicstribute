@@ -12,6 +12,19 @@ const Physicists = [
             point5: `Philosophy of Nature: Aristotle's physics integrated with his philosophical framework, emphasizing teleology (objects having inherent purposes) and influencing scientific inquiry and the development of physics.`
         }
     },
+        {
+        name: 'Archimedes',
+        dateOfBirth: '287 BC',
+        dateOfDemise: '212 BC',
+        image: './assets/images/archimedes.jpg',
+        workDescription: {
+  point1: "Archimedes' principle: He discovered the principle of buoyancy, which states that an object immersed in a fluid experiences an upward buoyant force equal to the weight of the displaced fluid. This principle has important applications in shipbuilding, hydrodynamics, and understanding the behavior of objects in fluids.",
+  point2: "Archimedes' screw: He invented the Archimedes' screw, a simple machine used to lift water or other fluids. This screw-shaped device, when rotated, can move liquids from a lower level to a higher level. It has been used historically for irrigation purposes and is still employed in various applications today.",
+  point3: "Laws of levers: Archimedes formulated the laws of levers, which describe the balance of forces and moments in a lever system. These laws are fundamental to understanding mechanical systems and have practical applications in various fields, such as engineering, construction, and mechanics.",
+  point4: "Method of exhaustion: He developed a precursor to integral calculus known as the method of exhaustion. This method allowed Archimedes to approximate the area and volume of curved shapes, including circles and spheres. It was a significant advancement in mathematics and laid the groundwork for future developments in calculus.",
+  point5: "War machines: Archimedes designed various war machines, including the claw of Archimedes, a device used to lift enemy ships out of the water and potentially capsize them. Although primarily related to warfare, his inventive mechanisms demonstrated his understanding of physics and engineering principles."
+}
+    },
     {
         name: 'Nicolaus Copernicus',
         dateOfBirth: '19 February 1473',
@@ -39,6 +52,19 @@ const Physicists = [
         }
     },
     {
+        name: 'Johannes Kepler',
+        dateOfBirth: 'December 27, 1571',
+        dateOfDemise: 'November 15, 1630',
+        image: './assets/images/kepler.jpeg',
+        workDescription: {
+            point1: "Kepler's Laws of Planetary Motion: Kepler formulated three fundamental laws that describe the motion of planets around the Sun. These laws provided a significant leap forward in understanding celestial mechanics and planetary orbits. They helped debunk the notion of circular orbits and laid the foundation for modern astronomy.",
+            point2: "Elliptical Orbits: Kepler's first law states that the planets move in elliptical orbits, with the Sun at one of the foci. This insight challenged the prevailing notion of circular planetary orbits and paved the way for a more accurate understanding of planetary motion. It revolutionized our understanding of the solar system's structure.",
+            point3: "Law of Equal Areas: Kepler's second law, also known as the law of equal areas, states that a line segment joining a planet to the Sun sweeps out equal areas in equal time intervals. This law helps explain the varying speeds of planets as they move in their orbits. It demonstrates the conservation of angular momentum and provides insights into planetary dynamics.",
+            point4: "Harmonic Law: Kepler's third law, the harmonic law, establishes a mathematical relationship between the orbital period of a planet and its average distance from the Sun. This law provides a quantitative description of the motion of planets in the solar system. It enables the calculation of planetary positions and revolutionized celestial mechanics.",
+            point5: "Optics and Astronomical Refraction: Kepler made contributions to optics, particularly in the understanding of astronomical refraction. He explained the bending of light as it passes through different media, such as Earth's atmosphere, which has implications for the observations of celestial objects. His work laid the groundwork for the study of optics and its applications in astronomy."
+          }
+    },
+    {
         name: 'Sir Isaac Newton',
         dateOfBirth: 'January 4, 1643',
         dateOfDemise: 'March 31, 1727',
@@ -50,6 +76,32 @@ const Physicists = [
             point4: `Calculus: Newton co-developed the branch of mathematics known as calculus along with Gottfried Wilhelm Leibniz. Calculus is a powerful mathematical tool used to study rates of change and to solve complex problems involving motion, optimization, and change. It has become an indispensable tool in physics and mathematics.`,
             point5: `Optics: Newton made significant contributions to the field of optics. He demonstrated that white light is composed of a spectrum of colors and developed the theory of color through experiments with prisms. His work on optics laid the foundation for the understanding of light as both particles and waves and influenced subsequent research in the field.`
         }
+    },
+    {
+        name: 'Benjamin Franklin',
+        dateOfBirth: 'January 17, 1706',
+        dateOfDemise: 'April 17, 1790',
+        image: './assets/images/franklin.jpg',
+        workDescription: {
+            point1: "Discovery of Electricity: Benjamin Franklin is known for his pioneering experiments with electricity. He conducted the famous kite experiment, demonstrating that lightning is a form of electricity. His work laid the foundation for our understanding of electrical phenomena.",
+            point2: "Invention of the Lightning Rod: Franklin invented the lightning rod, a device used to protect buildings and structures from lightning strikes. This invention was a significant advancement in the field of electrical safety.",
+            point3: "Positive and Negative Charges: Franklin proposed the concept of positive and negative charges. He introduced the convention of labeling the charge on objects as positive or negative, forming the basis for understanding electrical interactions.",
+            point4: "Theory of the Leyden Jar: Franklin developed the theory of the Leyden jar, an early form of capacitor used to store electrical charge. His experiments with the Leyden jar helped advance our understanding of electrical energy storage.",
+            point5: "Understanding of Electric Current: Franklin made significant contributions to the understanding of electric current. He introduced the concept of electric current flowing from positive to negative terminals, which laid the groundwork for the development of modern electrical circuits."
+          }
+    },
+    {
+        name: 'Michael Farady',
+        dateOfBirth: 'September 22, 1791',
+        dateOfDemise: 'August 25, 1867',
+        image: './assets/images/faraday.jpg',
+        workDescription: {
+            point1: "Electromagnetic Induction: Faraday discovered electromagnetic induction, demonstrating that a changing magnetic field can induce an electric current in a nearby conductor. This principle laid the foundation for the development of electrical generators, transformers, and numerous electrical devices.",
+            point2: "Laws of Electrolysis: Faraday formulated the laws of electrolysis, which describe the relationship between the amount of substance transformed during electrolysis and the electric charge passing through the electrolyte. These laws are fundamental to our understanding of electrochemistry.",
+            point3: "Faraday's Cage: Faraday invented the Faraday cage, an enclosure made of conductive material that can block external electric fields. It is widely used to protect sensitive electronic equipment from electromagnetic interference.",
+            point4: "Diamagnetism and Field Theory: Faraday investigated diamagnetism and discovered that certain materials exhibit weak repulsion in the presence of a magnetic field. His studies on diamagnetism contributed to the development of electromagnetic field theory.",
+            point5: "Faraday's Laws of Electrolysis: Faraday's laws state that the amount of substance deposited or liberated during electrolysis is directly proportional to the quantity of electric charge passing through the electrolyte. These laws have significant implications in the quantitative analysis of chemical reactions and electrochemical processes."
+          }
     },
     {
         name: 'Pierre-Simon Laplace',
@@ -77,6 +129,19 @@ const Physicists = [
             point5: `Impact on Modern Physics and Technology: Maxwell's contributions to physics paved the way for subsequent developments in electromagnetism and laid the foundation for many technological advancements. His work was instrumental in the development of radio, television, radar, and telecommunications, and it played a crucial role in the development of quantum mechanics and Einstein's theory of relativity.`
         }
 
+    },
+    {
+        name: 'Ludwig Boltzmann',
+        dateOfBirth: 'February 20, 1844',
+        dateOfDemise: 'September 5, 1906',
+        image: './assets/images/boltzmann.jpg',
+        workDescription: {
+            point1: "Statistical Mechanics: Boltzmann made significant contributions to the development of statistical mechanics, which provides a framework for understanding the behavior of systems with a large number of particles. His statistical interpretation of entropy helped establish the connection between microscopic and macroscopic properties.",
+            point2: "Boltzmann Equation: Ludwig Boltzmann formulated the Boltzmann equation, a fundamental equation in statistical mechanics that describes the behavior of gas particles and their interactions. This equation is widely used to model gases and understand their thermodynamic properties.",
+            point3: "Entropy Formula: Boltzmann developed the statistical interpretation of entropy, providing a mathematical expression known as the Boltzmann entropy formula. This formula relates the disorder or randomness of a system to the number of microscopic states it can occupy.",
+            point4: "Boltzmann Constant: Ludwig Boltzmann introduced the Boltzmann constant, denoted as 'k.' It relates the average kinetic energy of particles in a gas to the temperature of the system and plays a crucial role in connecting the macroscopic behavior of gases to the microscopic properties of their constituent particles.",
+            point5: "Boltzmann's H-Theorem: Boltzmann derived the H-theorem, which describes the tendency of an isolated system to approach thermal equilibrium over time. The H-theorem quantifies the irreversible increase of entropy in a system, contributing to our understanding of the arrow of time and the second law of thermodynamics."
+          }
     },
             {
         name: 'Sir Joseph John Thomson ',
