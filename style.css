@@ -39,7 +39,6 @@ body{
     background-color: #c8d8e4;
     display: grid;
     scroll-behavior: smooth;
-    overflow-anchor: auto;
     height: 100vh;
     user-select: none;
 
