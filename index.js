@@ -143,7 +143,22 @@ const Physicists = [
             point5: "Boltzmann's H-Theorem: Boltzmann derived the H-theorem, which describes the tendency of an isolated system to approach thermal equilibrium over time. The H-theorem quantifies the irreversible increase of entropy in a system, contributing to our understanding of the arrow of time and the second law of thermodynamics."
           }
     },
-            {
+
+    {
+        name: 'Nikola Tesla',
+        dateOfBirth: 'July 10, 1856',
+        dateOfDemise: 'January 7, 1943',
+        image: './assets/images/tesla.jpeg',
+        workDescription: {
+            point1: "Alternating Current (AC) Power Systems: Nikola Tesla's major contribution was the development and promotion of alternating current (AC) power systems. Tesla's inventions and innovations in AC power transmission revolutionized the field of electricity, making it possible to transmit electrical energy over long distances more efficiently and safely than direct current (DC) systems.",
+            point2: "Induction Motor: Tesla invented the induction motor, a type of electric motor that relies on alternating magnetic fields to rotate the motor's rotor. Induction motors are widely used in various applications, including industrial machinery, appliances, and electric vehicles.",
+            point3: "Tesla Coil: Nikola Tesla invented the Tesla coil, a resonant transformer circuit used to produce high-voltage, low-current, and high-frequency alternating current electricity. Tesla coils are still used today in various applications, such as wireless transmission and electrical experiments.",
+            point4: "Wireless Power Transfer: Tesla conducted extensive research on wireless power transfer, envisioning a world where electricity could be transmitted without the need for wires. Although his ambitious wireless power transmission projects faced technical challenges, his work laid the foundation for future advancements in wireless charging technologies.",
+            point5: "Tesla's Magnifying Transmitter: Tesla's magnifying transmitter, also known as the Tesla Tower, was an experimental wireless transmission device intended for long-distance power transmission and wireless communication. Although not fully realized during his time, the concept of the magnifying transmitter contributed to the development of wireless communication systems and resonant wireless power transfer technologies."
+          }
+    },
+
+        {
         name: 'Sir Joseph John Thomson ',
         dateOfBirth: '18 December 1856',
         dateOfDemise: '30 August 1940',
@@ -169,6 +184,21 @@ const Physicists = [
             point5: `Isotopes and the concept of half-life: Rutherford contributed to the discovery and understanding of isotopes, variants of elements with different atomic masses. He also introduced the concept of half-life, the time it takes for half of a radioactive substance to decay. His research on radioactive decay provided insights into the behavior of unstable atomic nuclei.`
         }
     },
+   
+    {
+        name: 'Madam Marie Curie',
+        dateOfBirth: 'November 7, 1867',
+        dateOfDemise: 'July 4, 1934',
+        image: './assets/images/madamCurie.jpg',
+        workDescription: {
+            point1: "Radioactivity Research: Marie Curie's major contribution was her pioneering research on radioactivity. She discovered two radioactive elements, polonium and radium, and coined the term 'radioactivity.' Her work transformed our understanding of atomic structure and laid the foundation for nuclear physics.",
+            point2: "Isolation of Radium and Polonium: Curie developed techniques to isolate radium and polonium from raw materials, demonstrating their existence as distinct elements. This groundbreaking achievement not only expanded our knowledge of the periodic table but also opened doors for further research on radioactive elements.",
+            point3: "Nobel Prizes: Marie Curie became the first woman to win a Nobel Prize and the only person to receive Nobel Prizes in two different scientific fields. She received the Nobel Prize in Physics in 1903, shared with Pierre Curie and Antoine Henri Becquerel, for her contributions to the understanding of radioactivity. In 1911, she won the Nobel Prize in Chemistry for her discovery and isolation of radium and polonium.",
+            point4: "Mobile Radiography Units: During World War I, Marie Curie developed mobile radiography units, known as 'Little Curies,' to provide X-ray diagnostics for field hospitals. These portable units revolutionized medical imaging, allowing for quick and accurate diagnoses of injured soldiers on the front lines.",
+            point5: "Legacy of Scientific Excellence: Marie Curie's contributions not only advanced our understanding of radioactivity but also paved the way for future advancements in nuclear science and medicine. Her dedication, perseverance, and groundbreaking discoveries continue to inspire scientists around the world."
+          }
+    },
+
     {
         name: 'Max Planck',
         dateOfBirth: '23 April 1858',
@@ -181,6 +211,19 @@ const Physicists = [
             point4: `Planck's radiation law: In addition to blackbody radiation, Planck developed a radiation law that described the spectral intensity distribution of radiation emitted by a vibrating body, such as an oscillator or a molecule. This law accounted for the discrete nature of energy, marking another significant step towards the development of quantum theory.`,
             point5: `Foundation of modern physics: Planck's quantum theory revolutionized the field of physics by challenging classical ideas and laying the groundwork for the development of quantum mechanics. His work provided a new perspective on the behavior of matter and energy, leading to further advancements in fields such as atomic physics, particle physics, and solid-state physics. Planck's contributions were crucial in shaping the modern understanding of the fundamental principles governing the universe at its most fundamental levels.`
         }
+    },
+    {
+        name: 'Enrico Fermi ',
+        dateOfBirth: 'September 29, 1901',
+        dateOfDemise: 'November 28, 1954',
+        image: './assets/images/fermi.jpg',
+        workDescription: {
+            point1: "Nuclear Fission: Enrico Fermi's major contribution was his role in the discovery and understanding of nuclear fission. He conducted experiments in the 1930s that led to the identification and demonstration of the splitting of atomic nuclei, a process that releases a tremendous amount of energy. Fermi's work paved the way for the development of nuclear reactors and atomic bombs.",
+            point2: "Neutrino Interaction: Fermi proposed the theory of beta decay, explaining the emission of beta particles during the decay of atomic nuclei. He introduced the concept of the neutrino, an elusive subatomic particle that carries away energy and angular momentum during beta decay. Fermi's theory of weak interactions laid the groundwork for later advancements in particle physics.",
+            point3: "Fermi-Dirac Statistics: Enrico Fermi made significant contributions to the development of quantum statistics. Along with Paul Dirac, he formulated the Fermi-Dirac statistics, which describe the behavior of identical particles known as fermions. These statistics are essential in understanding the behavior of electrons in solids and the properties of matter at low temperatures.",
+            point4: "Controlled Nuclear Chain Reaction: Fermi played a key role in achieving the first controlled, self-sustaining nuclear chain reaction. In 1942, he led the Chicago Pile-1 experiment, which successfully demonstrated the controlled release of nuclear energy. This breakthrough marked a significant milestone in the development of nuclear power and laid the foundation for subsequent nuclear reactor designs.",
+            point5: "Elementary Particle Interactions: Fermi made important contributions to the study of elementary particle interactions, particularly through his work on weak interactions and the formulation of the theory of weak interaction currents. His research helped shape our understanding of the fundamental forces and particles that govern the behavior of matter in the universe."
+          }
     },
       {
         name: 'Albert Einstien',
@@ -232,10 +275,48 @@ const Physicists = [
   point3: `Formulation of quantum mechanics: Schrödinger made significant contributions to the development of quantum mechanics. He formulated it in terms of wave mechanics, providing a mathematical framework for understanding quantum phenomena. His work demonstrated the probabilistic nature of quantum systems and allowed for the prediction of particle behavior.`,
   point4: `Schrödinger equation for hydrogen atom: Schrödinger derived an equation, known as the Schrödinger equation, to describe the energy levels and behavior of electrons in a hydrogen atom. This equation provided a more accurate description of atomic structure, accounting for electron wave functions and their corresponding energy states.`,
   point5: `Schrödinger's cat thought experiment: Schrödinger proposed a famous thought experiment known as Schrödinger's cat. It involves a hypothetical cat that can be both alive and dead simultaneously, illustrating the strange consequences of quantum superposition and entanglement. This experiment highlights the peculiar nature of quantum systems and the role of observation in collapsing quantum states.`,
-}
+  }
+},
+  {
+    name: 'Richard Feynman',
+    dateOfBirth: 'May 11, 1918',
+    dateOfDemise: 'February 15, 1988',
+    image: './assets/images/feynman.jpg',
+    workDescription: {
+        point1: "Quantum Electrodynamics (QED): Richard Feynman played a pivotal role in the development of Quantum Electrodynamics, a theory that describes the behavior of electromagnetic interactions at the quantum level. Feynman introduced the concept of Feynman diagrams, graphical representations used to calculate and visualize particle interactions in QED. His Feynman diagrams revolutionized the field of theoretical physics.",
+        point2: "Path Integral Formulation: Feynman developed the path integral formulation of quantum mechanics, which provides an alternative way to describe the behavior of quantum systems. This formulation involves summing over all possible paths that a particle can take, assigning probabilities to each path. Feynman's path integral formulation provides a powerful mathematical framework for understanding quantum phenomena.",
+        point3: "Feynman Lectures on Physics: Feynman is widely recognized for his exceptional ability to explain complex scientific concepts in a clear and engaging manner. His lectures on physics, known as the Feynman Lectures on Physics, have been influential in teaching and popularizing physics among students and enthusiasts worldwide. These lectures cover a wide range of topics and are highly regarded for their clarity and insights.",
+        point4: "Quantum Computing: Feynman made significant contributions to the field of quantum computing. He proposed the idea of using quantum systems to perform computations that are not feasible with classical computers. Feynman's insights and pioneering work laid the foundation for the development of quantum algorithms and the exploration of quantum computing as a new paradigm in information processing.",
+        point5: "Parton Model: Feynman, along with Murray Gell-Mann, developed the parton model, which explains the internal structure of hadrons, such as protons and neutrons. The parton model describes hadrons as composed of quarks and gluons, and it provided a theoretical framework for understanding the deep-inelastic scattering experiments conducted at particle accelerators."
+      
+      }
+  },
+  {
+    name: 'Stephen Hwaking',
+    dateOfBirth: 'January 8, 1942',
+    dateOfDemise: 'March 14, 2018',
+    image: './assets/images/hwaking.jpg',
+    workDescription: {
+        point1: "Hawking Radiation: Stephen Hawking's most famous contribution is the discovery of Hawking radiation. He proposed that black holes are not completely black but emit a faint radiation due to quantum effects near the event horizon. This groundbreaking idea challenged previous notions and provided new insights into the behavior of black holes.",
+        point2: "Cosmology and the Big Bang: Hawking made significant contributions to our understanding of the origins and evolution of the universe. He worked on theories related to the Big Bang and the expansion of the universe. His research contributed to the development of the inflationary cosmology theory, which explains the rapid expansion of the early universe.",
+        point3: "Black Hole Thermodynamics: Hawking extended the laws of thermodynamics to black holes. He showed that black holes have entropy and a temperature, and they behave like thermodynamic systems. This led to the formulation of the laws of black hole mechanics, such as the famous area theorem.",
+        point4: "Theoretical Physics and Quantum Gravity: Hawking made significant contributions to theoretical physics, particularly in the field of quantum gravity. He worked on reconciling general relativity with quantum mechanics, which are two fundamental theories in physics. His work on the theory of quantum gravity, including the concept of imaginary time, has influenced the field of theoretical physics.",
+        point5: "Popular Science and Public Outreach: Hawking played a crucial role in popularizing science and making it accessible to the general public. Through his best-selling book, 'A Brief History of Time,' and numerous public lectures and appearances, he brought complex scientific concepts to a wider audience and inspired many people to take an interest in physics and cosmology."
+      }
+  },
+  {
+    name: "Peter Higgs",
+    dateOfBirth: "May 29, 1929",
+    dateOfDemise: "N/A (Still Alive)",
+    image: './assets/images/higgs.jpg',
+    workDescription: {
+      point1: "Higgs Boson: Peter Higgs proposed the existence of the Higgs boson, a particle associated with the Higgs field. This groundbreaking idea, put forward in 1964, explained the mechanism by which particles acquire mass. The subsequent discovery of the Higgs boson at the Large Hadron Collider in 2012 confirmed the existence of this fundamental particle.",
+      point2: "Higgs Field: Higgs also formulated the concept of the Higgs field, which permeates the entire universe. According to the Higgs mechanism, particles interact with the Higgs field and acquire mass. This theory provided a crucial piece in understanding the origin of mass in the Standard Model of particle physics.",
+      point3: "Electroweak Symmetry Breaking: Higgs' work contributed to the understanding of electroweak symmetry breaking, a fundamental process in particle physics. His theory explained how the weak force and electromagnetic force, which were initially unified, separated into distinct forces at high energies, giving rise to the W and Z bosons and electromagnetic interactions.",
+      point4: "Spontaneous Symmetry Breaking: Higgs' proposal of the Higgs mechanism introduced the concept of spontaneous symmetry breaking in particle physics. This phenomenon describes how symmetries of a system can appear to be broken at low energies, leading to the emergence of new physical properties and particles.",
+      point5: "Nobel Prize in Physics: Peter Higgs, along with François Englert, was awarded the Nobel Prize in Physics in 2013 for the theoretical discovery of the Higgs mechanism and the prediction of the Higgs boson. This recognition highlighted the significance of Higgs' contributions to our understanding of the fundamental particles and forces in the universe."
     }
-
-    
+} 
 ]
 let body = document.querySelector('body');
 let bigContainer = document.createElement('div');

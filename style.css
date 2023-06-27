@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 html::-webkit-scrollbar{
-    width: 0.6vw;
+    width: 0.7vw;
     
 }
 html::-webkit-scrollbar-button{
