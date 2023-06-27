@@ -3,16 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html::-webkit-scrollbar{
+    width: 0.6vw;
+    
+}
+html::-webkit-scrollbar-button{
+    background-color: #80888fb4;
+    height: 0.5vh;
+}
+html::-webkit-scrollbar-thumb{
+    
+    background-color: #2b6777b2;
+    border-radius: 1rem;
+}
+html::-webkit-scrollbar:window-inactive {
+    display: none;
+}
+html::-webkit-scrollbar-thumb:hover,html::-webkit-scrollbar-thumb:active{
+    background-color: #2b6777;;
+    border-radius: 1rem;
+    width: th;
+}
+html::-webkit-scrollbar-track{
+    background-color: #80888fb4;
+}
+html::-webkit-scrollbar-track:hover,html::-webkit-scrollbar-button{
+    background-color:  #80888f77;
+    
+}
 body{
     padding: 1rem;
     background-color: #c8d8e4;
     display: grid;
     scroll-behavior: smooth;
     overflow-anchor: auto;
-    height: 90vh;
+    height: 100vh;
     user-select: none;
+
 }
+
 .big-container{
     padding-bottom: 1rem;
     width: 100%;
@@ -36,6 +65,26 @@ header h1{
     overflow: scroll;
     border-radius: 1rem;
     scroll-behavior: smooth;
+}
+.container::-webkit-scrollbar{
+    width: 0.7vw;
+    padding: 2%;
+}
+.container::-webkit-scrollbar-button{
+     background-color: #2b6777;
+     height: 1.3vh;
+}
+.container::-webkit-scrollbar-thumb{
+    border-radius: 2rem;
+    background-color: #587286d8;;
+}
+.container::-webkit-scrollbar-thumb:hover{
+    background-color: #2a4f6be7;;
+}
+.container::-webkit-scrollbar-track,.container::-webkit-scrollbar-corner{
+    background-color: #2b6777;
+    box-sizing: border-box;
+    
 }
 .image{
     width: 100%;
@@ -111,6 +160,9 @@ header h1{
 @media (max-width: 610px){
     .big-container{
         grid-template-columns: 90%;
+    }
+    .container::-webkit-scrollbar{
+       display: none;
     }
 }
 
